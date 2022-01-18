@@ -1,9 +1,15 @@
 image: mcr.microsoft.com/dotnet/sdk:latest
 
 stages:
+    - clean
     - build
     - test
+    - publish
 
+clean: 
+    stage: clean
+    script:
+        - "dotnet clean"
 build:
     stage: build
     script:
@@ -16,3 +22,10 @@ test:
     stage: test
     script: 
         - "dotnet test"
+publish:
+    stage: publish
+    script:
+        - "dotnet publish"
+    artifacts:
+      paths:
+        - bin/
