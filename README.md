@@ -6,6 +6,7 @@ how easy it is to get up and running with .NET development using GitLab.
 And like a feature about inner repos github and gitlab
 
 Comments 1
+comments 2
 
 # Reference links
 
