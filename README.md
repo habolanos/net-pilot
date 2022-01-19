@@ -5,6 +5,8 @@ how easy it is to get up and running with .NET development using GitLab.
 
 And like a feature about inner repos github and gitlab
 
+Another comments.
+
 # Reference links
 
 - [GitLab CI Documentation](https://docs.gitlab.com/ee/ci/)
