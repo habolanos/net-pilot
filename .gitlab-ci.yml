@@ -5,7 +5,6 @@ stages:
     - build
     - test
     - publish
-
 clean: 
     stage: clean
     script:
@@ -17,7 +16,6 @@ build:
     artifacts:
       paths:
         - bin/
-
 test:
     stage: test
     script: 
