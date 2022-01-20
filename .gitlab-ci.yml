@@ -5,6 +5,7 @@ stages:
     - build
     - test
     - publish
+    - run
 clean: 
     stage: clean
     script:
@@ -27,3 +28,7 @@ publish:
     artifacts:
       paths:
         - bin/
+run:
+    stage: run
+    script:
+        - "dotnet run"
