@@ -1,0 +1,6 @@
+[submodule "net-pilot-submodule-01"]
+	path = net-pilot-submodule-01
+	url = git@github.com:habolanos/net-pilot-submodule-01.git
+[submodule "net-pilot-submodule-02"]
+	path = net-pilot-submodule-02
+	url = git@github.com:habolanos/net-pilot-submodule-02.git
