@@ -13,6 +13,7 @@ namespace dotnetcore
 			Console.WriteLine("+------------------------------------------+");
 			Console.WriteLine("|                 History                  |");
 			Console.WriteLine("| 20220118 < tag v0.0.1                    |");
+			Console.WriteLine("| 20220120 < minor revision about source   |");
 			Console.WriteLine("+------------------------------------------+");
         }
     }
